@@ -1,0 +1,138 @@
+/**
+ * Base styles
+ *
+ * Opinionated defaults by Luke Harvey
+ */
+
+/**
+ * Enable font anti-aliasing in
+ * 1. Firefox
+ * 2. Chrome
+ */
+
+html {
+  -moz-osx-font-smoothing: grayscale; /* 1 */
+  -webkit-font-smoothing: antialiased; /* 2 */
+}
+
+body {
+  color: $colour-black;
+  font-family: $font-family-default;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  font-weight: $font-weight-default;
+  line-height: $line-height-default;
+  text-rendering: optimizeLegibility;
+}
+
+/**
+ * Reset font-weight of header elements
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-default;
+}
+
+/**
+ * Reset margin of text elements
+ */
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+/**
+ * Enable basic responsive image support
+ */
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/**
+ * Ensure all 'a' elements have correct cursor style
+ */
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+/**
+ * Lazysizes config
+ */
+
+/* stylelint-disable selector-no-qualifying-type */
+
+// img[data-sizes="auto"] {
+//   display: block;
+//   width: 100%;
+// }
+
+/* stylelint-enable selector-no-qualifying-type */
+
+// .lazyload,
+// .lazyloading {
+//   opacity: 0;
+// }
+
+// .lazyloaded {
+//   opacity: 1;
+//   transition: opacity 200ms;
+// }
+
+/**
+ * Prevent Typekit FOUT
+ */
+
+// .wf-loading {
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5,
+//   h6,
+//   p,
+//   ul,
+//   ol,
+//   li,
+//   blockquote,
+//   span {
+//     opacity: 0;
+//   }
+// }
+
+// .wf-active {
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5,
+//   h6,
+//   p,
+//   ul,
+//   ol,
+//   li,
+//   blockquote,
+//   span {
+//     opacity: 1;
+//     transition: opacity 1s;
+//   }
+// }

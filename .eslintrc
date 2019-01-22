@@ -1,0 +1,10 @@
+{
+  "extends": "prettier",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "jQuery": true
+  }
+}

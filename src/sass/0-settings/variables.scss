@@ -1,0 +1,88 @@
+/**
+ * Config
+ *
+ * All the variables used in the theme
+ */
+
+/**
+ * Colours
+ */
+
+// $colour-blue: blue;
+
+/**
+ * Grayscale
+ */
+
+$colour-black: #2a2a2a; // rgb(39, 39, 39)
+$colour-grey-dark-3: #3d3d3d; // rgb(66, 66, 66)
+$colour-grey-dark-2: #525252; // rgb(93, 93, 93)
+$colour-grey-dark-1: #666; // rgb(120, 120, 120)
+$colour-grey: #7a7a7a; // rgb(147, 147, 147)
+$colour-grey-light-1: #a4a4a4; // rgb(174, 174 , 174)
+$colour-grey-light-2: #ccc; // rgb(201, 201, 201)
+$colour-grey-light-3: #f4f4f4; // rgb(228, 228, 228)
+$colour-white: #fff; // rgb(255, 255, 255)
+
+/**
+ * Register custom fonts via font-face
+ */
+
+// @font-face {
+//   font-family: AvenirLTStd;
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url('../../inc/fonts/AvenirLTStd-Book.woff');
+// }
+
+/**
+ * Font families
+ */
+
+$font-family-default: sans-serif;
+$font-family-serif: serif;
+$font-family-mono: MonoWeb, monospace;
+
+/**
+ * Font sizes
+ */
+
+$font-size-small-3: 0.625rem; // 10px
+$font-size-small-2: 0.75rem; // 12px
+$font-size-small-1: 0.875rem; // 14px
+$font-size-default: 1rem; // 16px
+$font-size-large-1: 1.25rem; // 20px
+$font-size-large-2: 1.5rem; // 24px
+$font-size-large-3: 1.75rem; // 28px
+$font-size-large-4: 2.25rem; // 36px
+$font-size-large-5: 4rem; // 64px
+
+/**
+ * Font weights
+ */
+
+$font-weight-default: 400;
+$font-weight-bold: 800;
+
+/**
+ * Line-heights
+ */
+
+$line-height-tight-2: 1;
+$line-height-tight-1: 1.25;
+$line-height-default: 1.5;
+$line-height-loose-1: 1.75;
+$line-height-loose-2: 2;
+
+/**
+ * Breakpoints
+ */
+
+$viewport-small-3: 320px;
+$viewport-small-2: 375px;
+$viewport-small-1: 480px;
+$viewport-medium-1: 768px;
+$viewport-medium-2: 1024px;
+$viewport-large-1: 1200px;
+$viewport-large-2: 1400px;
+$viewport-large-3: 1600px;

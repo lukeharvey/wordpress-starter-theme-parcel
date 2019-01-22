@@ -1,0 +1,28 @@
+/**
+ * Svg
+ *
+ * For displaying SVGs in their intrinsic ratios
+ */
+
+.Svg {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+
+  svg {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/* padding-bottom should be calculated per Svg ( height / width * 100%)  */
+
+// .Svg--example {
+//   padding-bottom: 100%;
+// }
