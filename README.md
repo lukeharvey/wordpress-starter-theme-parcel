@@ -1,12 +1,11 @@
-# Wordpress Starter Theme Gulp
+# Wordpress Starter Theme Parcel
 
-A WordPress starter theme using Gulp.
+A WordPress starter theme using Parcel.
 
 Features:
 
 - [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
-- [Gulp](https://gulpjs.com/) for asset optimisation and compilation
-- [BrowserSync](https://www.browsersync.io/) for live browser reloading
+- [Parcel](https://parceljs.org/) for asset bundling and transpilation
 - [Suit CSS](https://suitcss.github.io/) naming conventions
 - [lazysizes](https://github.com/aFarkas/lazysizes) for lazyloading images
 
@@ -15,35 +14,30 @@ Features:
 ### Install pre-requisites
 
 - [Node](https://nodejs.org/) `$ brew install node`
-- [Gulp](https://gulpjs.com/) `$ npm install -g gulp`
+- [Parcel](https://parceljs.org/) `$ npm install -g parcel-bundler`
 
 ### (Optional) Install linters globally
 
 - [Prettier](https://prettier.io/) `$ npm install -g prettier`
-- [ESLint](https://eslint.org/) `$ npm install -g eslint eslint-config-prettier`
+- [ESLint](https://eslint.org/) `$ npm install -g eslint eslint-config-prettier eslint-plugin-prettier`
 - [stylelint](https://stylelint.io/) `$ npm install -g stylelint stylelint-config-suitcss`
 
 ### Setup
 
 ```
-$ git clone https://github.com/lukeharvey/wordpress-starter-theme-gulp.git lh
+$ git clone https://github.com/lukeharvey/wordpress-starter-theme-parcel.git lh
 $ cd lh
 $ npm install
 ```
 
-Then edit `gulpfile.js` to set the correct proxy URL for Browsersync.
-
 ## Developing 'lh'
 
 ```
-# Asset compilation
-$ gulp build
+# Build for production
+$ npm run build
 
-# Start live reload server with automatic asset compilation
-$ gulp serve
-
-# List other available gulp tasks
-$ gulp help
+# Watch for changles locally
+$ npm run watch
 ```
 
 # Author
