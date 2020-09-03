@@ -36,6 +36,6 @@
     "lint": "npm run stylelint && npm run eslint"
   },
   "dependencies": {
-    "lazysizes": "^4.1.8"
+    "lazysizes": "^5.2.1"
   }
 }
